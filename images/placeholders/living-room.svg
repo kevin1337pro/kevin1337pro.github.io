@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs><linearGradient id="g" y2="1"><stop stop-color="#F7F3EA"/><stop offset="1" stop-color="#D9CBB6"/></linearGradient></defs><rect width="1200" height="900" fill="url(#g)"/>
+  <rect x="100" y="95" width="470" height="390" rx="15" fill="#B8D7D2"/><path d="M335 95v390M100 290h470" stroke="#FDFBF4" stroke-width="16"/><circle cx="930" cy="180" r="170" fill="#EFC75E" opacity=".55"/>
+  <rect x="275" y="530" width="715" height="230" rx="48" fill="#214A3A"/><rect x="330" y="490" width="285" height="110" rx="35" fill="#E76750"/><rect x="650" y="490" width="280" height="110" rx="35" fill="#F7F3EA"/><ellipse cx="650" cy="805" rx="410" ry="44" fill="#927E67" opacity=".2"/>
+  <path d="M1030 640c-35-160-20-295 73-420M1045 385c-90-28-118-94-100-162 81 18 118 77 100 162Z" fill="none" stroke="#214A3A" stroke-width="24" stroke-linecap="round"/>
+  <rect x="760" y="833" width="390" height="40" rx="20" fill="#FDFBF4" opacity=".9"/><text x="955" y="859" text-anchor="middle" font-family="Arial" font-size="15" fill="#1D2925">KONZEPTBILD · ORIGINALAUFNAHME FOLGT</text>
+</svg>

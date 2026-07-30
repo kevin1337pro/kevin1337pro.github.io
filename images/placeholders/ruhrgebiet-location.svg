@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#E9DDCA"/><path d="M0 260c180 60 300-60 460 0s280 210 500 90 240-45 240-45v595H0Z" fill="#56AEB0" opacity=".5"/><path d="M0 590c220-140 380-100 520-20s330 110 680-80v410H0Z" fill="#214A3A" opacity=".9"/>
+  <g fill="none" stroke="#F7F3EA" stroke-width="12" opacity=".72"><path d="M80 180c230 80 300 370 540 360s350-270 510-210"/><path d="M180 0c10 260 220 320 230 560s180 300 180 340"/><path d="M820 0c-80 250-40 340 120 520s70 270 70 380"/></g>
+  <path d="M650 240c-87 0-157 69-157 155 0 116 157 295 157 295s157-179 157-295c0-86-70-155-157-155Z" fill="#E76750"/><circle cx="650" cy="395" r="64" fill="#F7F3EA"/><circle cx="650" cy="395" r="22" fill="#214A3A"/>
+  <rect x="700" y="820" width="450" height="42" rx="21" fill="#FDFBF4" opacity=".92"/><text x="925" y="847" text-anchor="middle" font-family="Arial" font-size="15" fill="#1D2925">KONZEPTKARTE · STANDORTDATEN FOLGEN</text>
+</svg>

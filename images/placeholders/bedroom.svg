@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#214A3A"/><stop offset="1" stop-color="#42715E"/></linearGradient></defs><rect width="1200" height="900" fill="url(#g)"/><circle cx="940" cy="160" r="190" fill="#EFC75E" opacity=".86"/>
+  <rect x="160" y="320" width="815" height="430" rx="32" fill="#E9DDCA"/><path d="M160 550h815v200H160Z" fill="#F7F3EA"/><rect x="220" y="365" width="315" height="175" rx="24" fill="#FDFBF4"/><rect x="560" y="365" width="350" height="175" rx="24" fill="#EFC75E"/>
+  <path d="M1050 780V350m0 80c-90-50-120-120-95-200 80 33 110 90 95 200Zm0-95c40-100 106-135 173-119-28 80-77 120-173 119Z" fill="none" stroke="#E9DDCA" stroke-width="24" stroke-linecap="round"/>
+  <rect x="730" y="833" width="420" height="40" rx="20" fill="#FDFBF4" opacity=".9"/><text x="940" y="859" text-anchor="middle" font-family="Arial" font-size="15" fill="#1D2925">KONZEPTBILD · ORIGINALAUFNAHME FOLGT</text>
+</svg>

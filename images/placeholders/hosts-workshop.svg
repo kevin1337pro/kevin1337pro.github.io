@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#214A3A"/><stop offset="1" stop-color="#173328"/></linearGradient></defs><rect width="1200" height="1500" fill="url(#g)"/><circle cx="950" cy="230" r="270" fill="#EFC75E" opacity=".83"/>
+  <rect x="90" y="850" width="1020" height="370" rx="35" fill="#B3906C"/><path d="M150 850h900M300 850v370M700 850v370" stroke="#775B40" stroke-width="18" opacity=".45"/>
+  <circle cx="340" cy="525" r="150" fill="#E9DDCA"/><path d="M170 820c20-180 80-260 170-260s150 80 170 260Z" fill="#E76750"/><circle cx="770" cy="505" r="155" fill="#E9DDCA"/><path d="M585 820c30-180 92-260 185-260 95 0 155 80 185 260Z" fill="#56AEB0"/>
+  <path d="M540 990c80-110 160-160 250-210M570 1000c-80-70-160-90-250-70" fill="none" stroke="#214A3A" stroke-width="26" stroke-linecap="round"/><circle cx="540" cy="990" r="55" fill="#EFC75E"/>
+  <rect x="690" y="1410" width="460" height="42" rx="21" fill="#FDFBF4" opacity=".92"/><text x="920" y="1437" text-anchor="middle" font-family="Arial" font-size="15" fill="#1D2925">KONZEPTBILD · ORIGINALAUFNAHME FOLGT</text>
+</svg>
