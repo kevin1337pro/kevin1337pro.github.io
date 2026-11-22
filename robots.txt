@@ -8,3 +8,4 @@ Disallow: /stornierung
 Disallow: /barrierefreiheit
 
 Sitemap: https://kevin1337pro.github.io/sitemap.xml
+Sitemap: https://kevin1337pro.github.io/hundeschule/sitemap.xml

@@ -32,7 +32,7 @@
         menu.focus();
       }
     });
-    matchMedia('(min-width:741px)').addEventListener('change', () => setMenu(false));
+    matchMedia('(max-width:880px)').addEventListener('change', () => setMenu(false));
   }
   const picture = document.querySelector('#hero-img');
   if (!picture) return;
