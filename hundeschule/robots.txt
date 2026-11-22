@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kevin1337pro.github.io/hundeschule/sitemap.xml

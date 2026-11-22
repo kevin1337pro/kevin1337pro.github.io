@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hundeschule">
+  <rect width="64" height="64" rx="17" fill="#183e32"/>
+  <path fill="#faf6eb" d="M11 51c3-6 4-12 5-19 1-11 6-19 17-19 7 0 11 4 13 10l9 4c1 .5 2 2 1 4-2 6-7 10-15 10h-4l-2 10H11Z"/>
+  <path fill="#183e32" d="M19 33c1-9 4-15 11-15 1 7 0 15-6 21-2 2-7-1-5-6Z"/>
+  <path fill="#183e32" d="m51 27 5 1c0 3-2 5-4 5-2-1-2-4-1-6Z"/>
+  <circle cx="39.5" cy="24.5" r="2" fill="#183e32"/>
+</svg>

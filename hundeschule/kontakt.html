@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183e32">
+  <meta name="description" content="Bereite dein Anliegen für ein Erstgespräch vor. Auf dieser Demo lässt sich deine Trainingsnotiz lokal als Textdatei speichern.">
+  <title>Kontakt und Trainingsnotiz · Hundeschule</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="subpages.css">
+  <script defer src="script.js"></script>
+  <script defer src="kontakt.js"></script>
+<link rel="canonical" href="https://kevin1337pro.github.io/hundeschule/kontakt.html">
+<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+<a class="skip" href="#inhalte">Zum Inhalt springen</a>
+<header class="site-header" id="seitenkopf">
+  <div class="wrap masthead">
+    <a class="wordmark" href="index.html" aria-label="Hundeschule – Startseite"><img src="assets/icon.svg" width="44" height="44" alt=""><span>Hundeschule</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span class="bars" aria-hidden="true"></span><span>Menü</span></button>
+    <nav class="navigation" id="navigation" aria-label="Hauptnavigation">
+      <a href="index.html#training">Trainingsangebote</a>
+      <a href="index.html#trainingsplatz">Trainingsplatz</a>
+      <a href="trainingsansatz.html">Unser Ansatz</a>
+      <a class="nav-cta" href="kontakt.html" aria-current="page">Erstgespräch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inhalte" class="subpage" tabindex="-1">
+  <div class="sub-hero"><div class="wrap sub-contact-intro">
+  <div class="sub-intro">
+    <a class="sub-back" href="./">← Zur Startseite</a>
+    <p class="eyebrow">Kontakt</p>
+    <h1>Deine Trainingsnotiz</h1>
+    <p class="sub-lead">Welche Situation möchtest du mit deinem Hund üben? Halte dein Anliegen für ein späteres Erstgespräch fest.</p>
+  </div>
+</div></div>
+<div class="wrap sub-contact-grid">
+  <div class="sub-context">
+    <h2>Für dein Erstgespräch</h2>
+    <p>Eine konkrete Beobachtung hilft mehr als ein Schlagwort. Zum Beispiel: „Auf dem Feldweg läuft unser Hund an lockerer Leine. Sobald ein Fahrrad kommt, zieht er nach vorn.“</p>
+    <p class="form-note">Diese Website ist ein anonymisiertes Designbeispiel. Deine Eingaben bleiben in diesem Browserfenster. Du kannst sie als Textdatei herunterladen. Eine Terminanfrage wird dabei nicht versendet.</p>
+  </div>
+  <div>
+    <form id="trainingsnotiz" class="form-grid" autocomplete="off">
+      <fieldset id="note-fields" disabled>
+        <legend>Notiz erstellen</legend>
+        <div class="field"><label for="thema">Trainingsthema</label>
+          <select id="thema" required><option value="">Bitte auswählen</option><option>Einzeltraining</option><option>Welpentraining</option><option>Tierschutzhunde</option><option>Alltagstraining</option><option>Anderes Thema</option></select></div>
+        <div class="field"><label for="situation">Was beobachtest du?</label>
+          <textarea id="situation" required maxlength="2500" rows="4" placeholder="Auf unserer gewohnten Runde …"></textarea></div>
+        <div class="field"><label for="ziel">Was wünschst du dir? <small>(optional)</small></label>
+          <textarea id="ziel" maxlength="1200" rows="2" placeholder="Ich möchte mit meinem Hund …"></textarea></div>
+        <button type="submit" class="button sub-button">Notiz als .txt herunterladen <span aria-hidden="true">↓</span></button>
+      </fieldset>
+    </form>
+    <p id="download-status" class="sub-status" role="status" aria-live="polite"></p>
+    <noscript><p class="form-note">Für den Download braucht dein Browser JavaScript. Du kannst Thema, Beobachtung und Wunsch auch selbst in einer Notiz festhalten.</p></noscript>
+  </div>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap foot-layout">
+  <div><a class="wordmark foot-brand" href="index.html"><img src="assets/icon.svg" width="38" height="38" alt="">Hundeschule</a><p>Anonyme Website-Vorschau für Hundetraining.</p></div>
+  <nav aria-label="Fußnavigation"><a href="index.html#fragen">Häufige Fragen</a><a href="kontakt.html">Erstgespräch</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a></nav>
+</div></footer>
+
+</body>
+</html>
