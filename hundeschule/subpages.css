@@ -30,6 +30,9 @@
   hyphens: auto;
 }
 .sub-intro .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
   margin: .3rem 0 .85rem;
   font-size: .77rem;
   font-weight: 740;
@@ -37,9 +40,11 @@
   text-transform: uppercase;
   color: #526546;
 }
+.sub-intro .eyebrow .icon { width: 1.9rem; height: 1.9rem; }
 .subpage .sub-back {
   display: inline-flex;
   align-items: center;
+  gap: .4rem;
   min-height: 2.75rem;
   margin: -.55rem 0 1.6rem;
   font-size: .92rem;
@@ -47,6 +52,7 @@
   text-decoration: underline;
   text-underline-offset: .22em;
 }
+.sub-back .icon { width: 1.125rem; height: 1.125rem; }
 .subpage .sub-lead {
   max-width: 48ch;
   margin-top: 1.35rem;
@@ -58,7 +64,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: .7rem;
   padding: .85rem 1.35rem;
   min-height: 2.75rem;
