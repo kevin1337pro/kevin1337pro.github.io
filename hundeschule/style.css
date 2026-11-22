@@ -145,22 +145,55 @@ summary > .icon { position: absolute; right: .35rem; top: 50%; transform: transl
 .home-news-list article { border-top: 1px solid var(--border); padding: 1.2rem 0 1.6rem; }
 .home-news-list h3 { font-size: clamp(1.5rem, 2.2vw, 2rem); }
 
-main#inhalte, .site-footer { position: relative; isolation: isolate; }
+main#inhalte, .site-footer {
+  --track-width: clamp(7rem, 13vw, 13.6rem);
+  --track-height: clamp(10rem, 18vw, 18rem);
+  position: relative;
+  isolation: isolate;
+}
 main#inhalte::before, .site-footer::before {
   content: "";
   position: absolute;
   z-index: 1;
-  width: clamp(3.5rem, 6.5vw, 6.8rem);
-  height: clamp(5rem, 9vw, 9rem);
+  left: .5rem;
+  width: var(--track-width);
+  height: var(--track-height);
   pointer-events: none;
   background: url("assets/fussspuren.webp") center / contain no-repeat;
   opacity: .22;
 }
-main#inhalte::before { top: .25rem; right: .55rem; }
-.site-footer::before { bottom: .25rem; left: .5rem; }
-.site-footer { padding-bottom: calc(clamp(5rem, 9vw, 9rem) + .75rem); }
+main#inhalte::before { top: .25rem; }
+.site-footer::before { bottom: .25rem; }
+.site-footer {
+  display: grid;
+  align-items: center;
+  min-height: calc(var(--track-height) + 1rem);
+}
+
+@media (min-width: 741px) {
+  /* Use the existing outer gutter first, then reserve the rest inside the wrapper. */
+  .hero-layout, .sub-hero > .wrap, .news-mast > .wrap, .subpage > .sub-plain, .foot-layout {
+    padding-inline-start: max(0px, calc(var(--track-width) + 1.75rem - max(4vw, (100vw - 1250px) / 2)));
+  }
+}
 
 @media (max-width: 740px) {
+  .hero-layout, .subpage .sub-hero > .wrap, .subpage > .sub-plain { padding-block-start: 0; }
+  .hero .eyebrow, .news-mast .news-crumbs {
+    display: flex;
+    align-items: center;
+    min-height: calc(var(--track-height) + .5rem);
+    padding: .75rem 0 .75rem var(--track-width);
+  }
+  .subpage .wrap .sub-back {
+    margin: calc(var(--track-height) / 2 - 1.125rem) 0
+            calc(var(--track-height) / 2 - 1.125rem) var(--track-width);
+  }
+  .foot-layout nav {
+    margin-inline-start: var(--track-width);
+    min-height: calc(var(--track-height) - 1.25rem);
+    align-content: center;
+  }
   .home-news-layout { grid-template-columns: 1fr; gap: 1.35rem; }
   .home-news .textlink { display: inline-block; margin-top: .9rem; }
   .home-news-feature img { aspect-ratio: 1.65; }
