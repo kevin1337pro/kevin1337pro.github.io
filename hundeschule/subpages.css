@@ -4,7 +4,7 @@
   --sub-rule: #d4d8c9;
   --sub-paper: #faf8ef;
   color: var(--sub-ink);
-  background: var(--sub-paper);
+  background-color: var(--sub-paper);
 }
 .subpage .wrap {
   width: min(1180px, calc(100% - clamp(2.5rem, 8vw, 8rem)));
@@ -13,7 +13,7 @@
 .subpage h1, .subpage h2, .subpage h3, .subpage p, .subpage figure { margin: 0; }
 .subpage h1, .subpage h2 { text-wrap: balance; }
 .subpage p { text-wrap: pretty; }
-.sub-hero { background: #efefdf; }
+.sub-hero { background-color: #efefdf; }
 .sub-hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);

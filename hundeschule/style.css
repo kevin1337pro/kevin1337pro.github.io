@@ -148,23 +148,20 @@ summary > .icon { position: absolute; right: .35rem; top: 50%; transform: transl
 main#inhalte, .site-footer {
   --track-width: clamp(7rem, 13vw, 13.6rem);
   --track-height: clamp(10rem, 18vw, 18rem);
-  position: relative;
-  isolation: isolate;
 }
-main#inhalte::before, .site-footer::before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  left: .5rem;
-  width: var(--track-width);
-  height: var(--track-height);
-  pointer-events: none;
-  background: url("assets/fussspuren.webp") center / contain no-repeat;
-  opacity: .22;
+.hero, .sub-hero, .news-mast, .subpage:has(> .sub-plain), .site-footer {
+  /* Keep the 282 × 395 motif centered in its responsive corner box. */
+  --track-ratio: calc(282 / 395);
+  --ink-width: min(var(--track-width), var(--track-height) * var(--track-ratio));
+  --ink-left: calc(.5rem + (var(--track-width) - var(--ink-width)) / 2);
+  --ink-edge: calc(.25rem + (var(--track-height) - var(--ink-width) / var(--track-ratio)) / 2);
+  background-image: url("assets/fussspuren-hintergrund.webp");
+  background-size: var(--ink-width) auto;
+  background-repeat: no-repeat;
+  background-position: left var(--ink-left) top var(--ink-edge);
 }
-main#inhalte::before { top: .25rem; }
-.site-footer::before { bottom: .25rem; }
 .site-footer {
+  background-position: left var(--ink-left) bottom var(--ink-edge);
   display: grid;
   align-items: center;
   min-height: calc(var(--track-height) + 1rem);

@@ -1,5 +1,5 @@
 .news-mast {
-  background: var(--sage);
+  background-color: var(--sage);
   border-bottom: 1px solid var(--border);
 }
 
